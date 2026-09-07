@@ -108,7 +108,7 @@ export const team = {
       bio: "Opens the American corridor. NBA agent, co-founder, and the other half of a partnership that began at Charis Prep.",
     },
     {
-      name: "Yves",
+      name: "Yves G. Mongongu BE",
       title: "Co-CEO DRC & FIBA Agent",
       bio: "International basketball representation across FIBA markets — contracts, clubs, and competitive pathways.",
     },
@@ -118,7 +118,7 @@ export const team = {
       bio: "The development engine. He turns potential into craft at Ballers Academy — on the floor and beyond it.",
     },
     {
-      name: "Estelle Kusota",
+      name: "Estelle Nkumba",
       title: "Project Manager",
       bio: "Orchestrates programs, partnerships and delivery. The quiet precision behind every move.",
     },
@@ -135,24 +135,28 @@ export const talents = {
       discipline: "Artist",
       tag: "Music",
       copy: "A voice built for the stage — Congolese energy, global frequency.",
+      href: "https://www.instagram.com/hiroofficiel/",
     },
     {
       name: "Paul Mbiya",
       discipline: "Basketball",
       tag: "Guard / Forward",
       copy: "Explosive, composed, and built for the next level of the game.",
+      href: "https://www.instagram.com/pmk__34/",
     },
     {
       name: "Parby Kabamba",
       discipline: "Basketball",
       tag: "Forward",
       copy: "Power, presence, and a game that travels across borders.",
+      href: "https://www.instagram.com/parby_15/",
     },
     {
       name: "Ephraim Masala",
       discipline: "Basketball",
       tag: "Forward / Center",
       copy: "Size, instinct, and the hunger of a player still writing his chapter.",
+      href: "https://www.instagram.com/ephraim_masala15/",
     },
   ],
 };
