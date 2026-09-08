@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowDownRight } from "lucide-react";
 import Button from "@/components/ui/Button";
+import Logo from "@/components/ui/Logo";
 import { hero } from "@/lib/content";
 import { images, videos } from "@/lib/images";
 
@@ -44,10 +45,24 @@ export default function Hero() {
       </div>
 
       <div className="container-site flex min-h-[100svh] flex-col justify-end pb-16 pt-32 sm:pb-20 lg:pb-24">
-        <motion.p
+        <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={ready ? { opacity: 1, y: 0 } : { opacity: 0, y: 16 }}
           transition={{ duration: 0.7 }}
+          className="mb-8"
+        >
+          <Logo
+            showWordmark={false}
+            markSize={128}
+            priority
+            className="drop-shadow-[0_12px_40px_rgba(0,0,0,0.55)]"
+          />
+        </motion.div>
+
+        <motion.p
+          initial={{ opacity: 0, y: 16 }}
+          animate={ready ? { opacity: 1, y: 0 } : { opacity: 0, y: 16 }}
+          transition={{ delay: 0.08, duration: 0.7 }}
           className="eyebrow mb-6"
         >
           {hero.kicker}

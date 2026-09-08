@@ -1,3 +1,4 @@
+import Logo from "@/components/ui/Logo";
 import { footer, navItems } from "@/lib/content";
 
 export default function Footer() {
@@ -5,9 +6,10 @@ export default function Footer() {
     <footer className="border-t border-white/10 bg-ink">
       <div className="container-site grid gap-10 py-14 md:grid-cols-[1.4fr_1fr_1fr]">
         <div>
-          <p className="font-display text-4xl font-extrabold tracking-tighter">
-            B<span className="text-gold">360</span>
-          </p>
+          <Logo
+            markSize={48}
+            wordmarkClassName="font-display text-4xl font-extrabold tracking-tighter"
+          />
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-cream/60">
             {footer.tagline}
           </p>

@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import Logo from "@/components/ui/Logo";
 import { navItems } from "@/lib/content";
 
 export default function Header() {
@@ -32,8 +33,8 @@ export default function Header() {
       }`}
     >
       <div className="container-site flex items-center justify-between py-4 lg:py-5">
-        <a href="#top" className="relative z-50 font-display text-2xl font-extrabold tracking-tighter">
-          B<span className="text-gold">360</span>
+        <a href="#top" className="relative z-50">
+          <Logo priority markSize={36} />
         </a>
 
         <nav className="hidden items-center gap-8 lg:flex">

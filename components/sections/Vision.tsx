@@ -98,9 +98,11 @@ export default function Vision() {
                 src={images.dunkParallax}
                 alt="Basketball player dunking"
                 fill
-                className="object-cover object-center drop-shadow-[0_30px_80px_rgba(0,0,0,0.65)]"
+                className="object-cover object-center brightness-[0.55] contrast-110 drop-shadow-[0_30px_80px_rgba(0,0,0,0.65)]"
                 sizes="60vw"
               />
+              <div className="absolute inset-0 bg-gradient-to-r from-ink/80 via-ink/45 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/30 to-transparent" />
             </div>
           </div>
 
@@ -122,14 +124,25 @@ export default function Vision() {
           </div>
 
           <Container className="relative z-20 flex h-full flex-col justify-end pb-16 pt-28 sm:justify-center sm:pb-0">
-            <div ref={copy} className="max-w-2xl">
+            <div ref={copy} className="relative max-w-2xl">
+              <div
+                aria-hidden
+                className="pointer-events-none absolute -inset-x-5 -inset-y-6 -z-10 rounded-3xl bg-ink/80 blur-md sm:-inset-x-8 sm:-inset-y-8"
+              />
               <p className="eyebrow mb-5">
                 {vision.index} — {vision.title}
               </p>
-              <h2 className="display mb-8 text-4xl sm:text-6xl">{vision.title}</h2>
-              <div className="space-y-5 text-base leading-relaxed text-cream/80 sm:text-lg">
+              <h2 className="display mb-8 text-4xl text-cream drop-shadow-[0_8px_24px_rgba(0,0,0,0.65)] sm:text-6xl">
+                {vision.title}
+              </h2>
+              <div className="space-y-5 text-base font-medium leading-relaxed text-cream sm:text-lg">
                 {vision.lines.map((line) => (
-                  <p key={line}>{line}</p>
+                  <p
+                    key={line}
+                    className="drop-shadow-[0_2px_12px_rgba(0,0,0,0.8)]"
+                  >
+                    {line}
+                  </p>
                 ))}
               </div>
             </div>

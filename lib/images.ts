@@ -5,6 +5,8 @@ const pexels = (id: string, w = 1600) =>
   `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=${w}`;
 
 export const images = {
+  logo: "/imgs/logo-b360.png",
+  logoLight: "/imgs/logo-b360-light.png",
   heroDunk: unsplash("photo-1579487685737-e435a87b2518", 2400),
   heroPoster: pexels("358042", 1800),
   aboutCourt: unsplash("photo-1504450758481-7338eba7524a", 1800),
@@ -16,10 +18,10 @@ export const images = {
   team: [
     "/imgs/Yass.png",
     "/imgs/AfiK.jpeg",
-    "/imgs/Ant.webp",
+    "/imgs/Ant.png",
     "/imgs/Yves.jpeg",
     "/imgs/Angelo.png",
-    unsplash("photo-1589156280159-27698a70f29e", 900),
+    "/imgs/Estelle.png",
   ],
   talents: [
     "/imgs/Hiro.jpeg",

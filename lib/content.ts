@@ -22,8 +22,8 @@ export const about = {
   lead: "B360 is a talent agency specializing in African markets, with deep roots in the Democratic Republic of Congo.",
   paragraphs: [
     "Founded by Yacine Fylla and Anthony Myers, two former basketball players who first met and played together at Charis Prep, the agency was born from a shared conviction: African talent deserves world-class infrastructure, representation and opportunity.",
-    "What started as a friendship on the court became a transatlantic platform — connecting athletes and artists from Kinshasa to the NBA, from African stages to global audiences.",
-    "Today B360 operates as a complete ecosystem. We do not simply place talent. We build the conditions around it — development, brand, business, and the quiet work that lets excellence travel.",
+    "What started as a friendship on the court became a transatlantic platform — connecting athletes and artists from  Kinshasa to the World, from African stages to global audiences.",
+    "Today B360 operates as a complete ecosystem. We do not simply recruit talent. We build the conditions around it — development, brand, business, and the quiet work that lets excellence florish.",
   ],
   quote:
     "Two players. One court. A belief that African talent belongs on the global stage.",
@@ -140,7 +140,7 @@ export const talents = {
     {
       name: "Paul Mbiya",
       discipline: "Basketball",
-      tag: "Guard / Forward",
+      tag: "Forward center",
       copy: "Explosive, composed, and built for the next level of the game.",
       href: "https://www.instagram.com/pmk__34/",
     },
@@ -155,7 +155,7 @@ export const talents = {
       name: "Ephraim Masala",
       discipline: "Basketball",
       tag: "Forward / Center",
-      copy: "Size, instinct, and the hunger of a player still writing his chapter.",
+      copy: "",
       href: "https://www.instagram.com/ephraim_masala15/",
     },
   ],
@@ -166,11 +166,11 @@ export const contact = {
   title: "Get In Touch",
   intro:
     "Whether you are talent, a partner, or a brand ready to build with Africa — start here.",
-  email: "hello@b360.agency",
+  email: "hello@ballers360.agency",
   phone: "+243 000 000 000",
-  locations: ["Kinshasa, DRC", "United States"],
+  locations: ["Kinshasa, DRC", "United States", "France", "Belgium"],
   socials: [
-    { label: "Instagram", href: "https://instagram.com/" },
+    { label: "Instagram", href: "https://www.instagram.com/b360_agency/" },
     { label: "LinkedIn", href: "https://linkedin.com/" },
     { label: "X", href: "https://x.com/" },
   ],

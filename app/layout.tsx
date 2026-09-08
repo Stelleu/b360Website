@@ -33,6 +33,13 @@ export const metadata: Metadata = {
     "NBA agent",
     "artist management",
   ],
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180" }],
+  },
   openGraph: {
     title: "B360 — African Talent, Built for the Global Stage",
     description: "From African roots to the global stage.",

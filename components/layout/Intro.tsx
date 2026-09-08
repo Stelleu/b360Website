@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import Logo from "@/components/ui/Logo";
 
 export default function Intro() {
   const [show, setShow] = useState(true);
@@ -29,14 +30,19 @@ export default function Intro() {
           transition={{ duration: 0.9, ease: [0.76, 0, 0.24, 1] }}
         >
           <div className="text-center">
-            <motion.p
+            <motion.div
               initial={{ opacity: 0, y: 18 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7 }}
-              className="font-display text-6xl font-extrabold tracking-tighter sm:text-8xl"
+              className="flex flex-col items-center gap-5"
             >
-              B<span className="text-gold">360</span>
-            </motion.p>
+              <Logo
+                stacked
+                priority
+                markSize={120}
+                wordmarkClassName="font-display text-6xl font-extrabold tracking-tighter sm:text-8xl"
+              />
+            </motion.div>
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
