@@ -6,6 +6,7 @@ import Vision from "@/components/sections/Vision";
 import Team from "@/components/sections/Team";
 import Talents from "@/components/sections/Talents";
 import Contact from "@/components/sections/Contact";
+import Investments from "@/components/sections/Invesment";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Vision />
       <Team />
       <Talents />
+      <Investments />
       <Contact />
     </main>
   );

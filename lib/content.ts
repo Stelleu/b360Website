@@ -161,18 +161,47 @@ export const talents = {
   ],
 };
 
-export const contact = {
+export const investments = {
   index: "06",
+  title: "Our Investments",
+  intro: "Our partners. One standard. Global ambition.",
+  items: [
+    /*{
+      name: "PNW",
+      discipline: "Basketball",
+      tag: "Forward center",
+      copy: "Explosive, composed, and built for the next level of the game.",
+      href: "https://www.instagram.com/pmk__34/",
+    },*/
+    {
+      name: "Congo Origin",
+      discipline: "Media",
+      tag: "Media",
+      copy: "Congo, its origins, its people, its stories.",
+      href: "https://www.instagram.com/congo_origin/",
+    },
+    {
+      name: "Ballers Academy",
+      discipline: "Basketball academy",
+      tag: "Basketball academy",
+      copy: "Converting potential into craft at Ballers Academy — on the floor and beyond it.",
+      href: "https://www.instagram.com/ephraim_masala15/",
+    },
+  ],
+};
+
+export const contact = {
+  index: "07",
   title: "Get In Touch",
   intro:
     "Whether you are talent, a partner, or a brand ready to build with Africa — start here.",
-  email: "hello@ballers360.agency",
-  phone: "+243 000 000 000",
+  email: "yacine@ballers.house",
+//  phone: "+243 000 000 000",
   locations: ["Kinshasa, DRC", "United States", "France", "Belgium"],
   socials: [
     { label: "Instagram", href: "https://www.instagram.com/b360_agency/" },
     { label: "LinkedIn", href: "https://linkedin.com/" },
-    { label: "X", href: "https://x.com/" },
+   // { label: "X", href: "https://x.com/" },
   ],
   subjects: [
     "Talent Representation",

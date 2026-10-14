@@ -29,6 +29,11 @@ export const images = {
     "/imgs/Parby.jpeg",
     "/imgs/Ephraim.jpeg",
   ],
+  investments: [
+   // "/imgs/PNW.jpeg",
+    "/imgs/CongoOrigin.jpg",
+    "/imgs/BallersAcademy.jpg",
+  ],
 };
 
 export const videos = {
