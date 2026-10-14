@@ -30,7 +30,7 @@ export const images = {
     "/imgs/Ephraim.jpeg",
   ],
   investments: [
-   // "/imgs/PNW.jpeg",
+    "/imgs/PNW.jpg",
     "/imgs/CongoOrigin.jpg",
     "/imgs/BallersAcademy.jpg",
   ],

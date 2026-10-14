@@ -166,13 +166,13 @@ export const investments = {
   title: "Our Investments",
   intro: "Our partners. One standard. Global ambition.",
   items: [
-    /*{
+    {
       name: "PNW",
-      discipline: "Basketball",
+      discipline: "Sports Management",
       tag: "Forward center",
-      copy: "Explosive, composed, and built for the next level of the game.",
-      href: "https://www.instagram.com/pmk__34/",
-    },*/
+      copy: "Where Greatness Begins.",
+      href: "https://pnwsportsgroup.com/",
+    },
     {
       name: "Congo Origin",
       discipline: "Media",
