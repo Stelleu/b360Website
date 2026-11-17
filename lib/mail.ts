@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer";
 
-const CONTACT_TO = process.env.CONTACT_TO ?? "yacine@ballers.house";
+const CONTACT_TO = process.env.CONTACT_TO ?? "contact@b360.agency";
 
 function env(name: string) {
   const value = process.env[name]?.trim();

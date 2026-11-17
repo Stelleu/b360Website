@@ -200,7 +200,7 @@ export const contact = {
   title: "Get In Touch",
   intro:
     "Whether you are talent, a partner, or a brand ready to build with Africa — start here.",
- // email: "yacine@ballers.house",
+    // email: "contact@b360.agency",
 //  phone: "+243 000 000 000",
   locations: ["Kinshasa, DRC", "United States", "France", "Belgium"],
   socials: [

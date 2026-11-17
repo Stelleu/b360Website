@@ -45,12 +45,6 @@ export default function Contact() {
             </p>
             <div className="mt-10 space-y-8">
               <div>
-                <p className="eyebrow mb-3">Email</p>
-                <a href={`mailto:${contact.email}`} className="text-xl hover:text-gold">
-                  {contact.email}
-                </a>
-              </div>
-              <div>
                 <p className="eyebrow mb-3">Presence</p>
                 {contact.locations.map((loc) => (
                   <p key={loc} className="text-cream/70">
