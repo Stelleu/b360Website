@@ -22,6 +22,7 @@ export const images = {
     "/imgs/Yves.jpeg",
     "/imgs/Angelo.png",
     "/imgs/Estelle.png",
+    "/imgs/Omari.jpg",
   ],
   talents: [
     "/imgs/Hiro.jpeg",

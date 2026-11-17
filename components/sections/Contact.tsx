@@ -80,6 +80,14 @@ export default function Contact() {
 
           <Reveal delay={0.1}>
             <form onSubmit={onSubmit} className="space-y-8">
+            <input
+                  type="text"
+                  name="website"
+                  tabIndex={-1}
+                  autoComplete="off"
+                  aria-hidden="true"
+                  className="absolute -left-[9999px] h-0 w-0 opacity-0"
+                />
               <div className="grid gap-8 sm:grid-cols-2">
                 <label className="block text-xs uppercase tracking-[0.18em] text-cream/50">
                   Name

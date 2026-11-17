@@ -112,16 +112,21 @@ export const team = {
       title: "Co-CEO DRC & FIBA Agent",
       bio: "International basketball representation across FIBA markets — contracts, clubs, and competitive pathways.",
     },
-    {
-      name: "Madinda Angelo",
-      title: "Co-Founder & President Ballers Academy",
-      bio: "The development engine. He turns potential into craft at Ballers Academy — on the floor and beyond it.",
-    },
+      {
+        name: "Madinda Angelo",
+        title: "Co-Founder & President Ballers Academy",
+        bio: "The development engine. He turns potential into craft at Ballers Academy — on the floor and beyond it.",
+      },
     {
       name: "Estelle Nkumba",
       title: "Project Manager",
       bio: "Orchestrates programs, partnerships and delivery. The quiet precision behind every move.",
     },
+    {
+      name: "Jonathan Omari",
+      title: "Director of Project Execution Congo Origin Media",
+      bio: "Director of execution development. He turns potential into craft at Congo Origin Media ",
+    }
   ],
 };
 
